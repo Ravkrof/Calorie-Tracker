@@ -19,9 +19,7 @@ This system is developed to help users to keep a track of their calories. In thi
 # Database Schema Required: 
 - Users(u_id, u_name, age, weight, height, password, email)
 - Ingredients(i_id, i_name, i_calorie) 
-- Dishes(d_id, d_name, d_calories)</br>
-</br>
-Additional tables required for relationships among the primary tables: 
+- Dishes(d_id, d_name, d_calories) 
 - Eats(e_id, u_id, d_id, quantity, tot_calories, date_time) 
 - Utilizes(u_id , d_id, i_id, quantity)
 
