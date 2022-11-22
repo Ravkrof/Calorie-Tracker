@@ -11,17 +11,17 @@ pip install PyQt5Designer</br>
 This system is developed to help users to keep a track of their calories. In this I have created relations to store user details, ingredient details and dish details. The relations, dishes and ingredients are related to each by another relation named utilizes, which follows the logic that one dish can be made from many ingredients. Similarly the relations, users and dishes are related to each other by another relation named eats, which follows the logic that one user can eat many dishes. Moreover, the user can add the dish name and quantity they have eaten recently or in the past. Furthermore, the user can also view the history of dishes eaten and how many calories were consumed in a certain datetime range. Lastly I have also added the option to register a new user on the platform by entering their name, age, weight, height, email and password which will be inserted into the users table.
 
 # Objectives
-- To register users to the platform so that they can track their calories and stay healthy.
++ To register users to the platform so that they can track their calories and stay healthy.
 + To allow users to input the dish they had and at what time.
 + To update calories each time they eat a new dish .
 + To keep a track of dishes and calories a user eats in a user-specified date-time range.
 
 # Database Schema Required: 
-Users(u_id, u_name, age, weight, height, password, email)
-Ingredients(i_id, i_name, i_calorie) 
-Dishes(d_id, d_name, d_calories)
+- Users(u_id, u_name, age, weight, height, password, email)
+- Ingredients(i_id, i_name, i_calorie) 
+- Dishes(d_id, d_name, d_calories)</br>
 Additional tables required for relationships among the primary tables: 
-Eats(e_id, u_id, d_id, quantity, tot_calories, date_time) 
-Utilizes(u_id , d_id, i_id, quantity)
+- Eats(e_id, u_id, d_id, quantity, tot_calories, date_time) 
+- Utilizes(u_id , d_id, i_id, quantity)
 
 
