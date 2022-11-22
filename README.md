@@ -23,4 +23,10 @@ This system is developed to help users to keep a track of their calories. In thi
 - Eats(e_id, u_id, d_id, quantity, tot_calories, date_time) 
 - Utilizes(u_id , d_id, i_id, quantity)
 
+# Database Concepts
+![views](https://user-images.githubusercontent.com/74938645/203321796-d29bf124-20fc-4cd0-9019-e783cd0669b2.png)
+![p1](https://user-images.githubusercontent.com/74938645/203321800-be45c7b9-3d96-4f52-9216-bad9a87bbf5c.png)
+![p2](https://user-images.githubusercontent.com/74938645/203321803-0dd40c18-6849-4b6f-84c2-c57a6aeaf3ae.png)
+![p3](https://user-images.githubusercontent.com/74938645/203321806-4c302a8d-d4fb-47b5-885f-e642c054b7f5.png)
+![ft](https://user-images.githubusercontent.com/74938645/203321808-9d80f3a6-2880-4194-95c5-d2ba7ec1dce9.png)
 
