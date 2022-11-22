@@ -1,4 +1,4 @@
-# Calorie-Tracker-
+# Calorie-Tracker
 Database Management Systems Course Project
 
 pip install PyQt5 </br>
@@ -20,6 +20,7 @@ This system is developed to help users to keep a track of their calories. In thi
 - Users(u_id, u_name, age, weight, height, password, email)
 - Ingredients(i_id, i_name, i_calorie) 
 - Dishes(d_id, d_name, d_calories)</br>
+</br>
 Additional tables required for relationships among the primary tables: 
 - Eats(e_id, u_id, d_id, quantity, tot_calories, date_time) 
 - Utilizes(u_id , d_id, i_id, quantity)
